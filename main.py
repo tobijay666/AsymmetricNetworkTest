@@ -21,7 +21,7 @@ class NeuralNetwork():
             print(f"[DEBUG]: {data}")
 
     def progress(self, curr, fin):
-        print(f"[{"|" * int((curr/fin)*100)}]", end="\r")
+        print(f"[{'|' * int((curr/fin)*100)}]", end="\r")
 
     # def buld_random_connections(self):
     #     for i in range(0)
